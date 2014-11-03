@@ -1,0 +1,21 @@
+[user]
+	name = d.kanehira
+	email = disc99.o@gmail.com
+[core]
+	excludesfile = /Users/daisuke/.gitignore
+[color]
+	ui = true
+[alias]
+	co = checkout
+	s = status
+	b = branch
+	c = commit
+	cob = checkout -b
+	ph = push
+	pl = pull
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
